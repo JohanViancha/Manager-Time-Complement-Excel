@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build artifacts
+dist/
+build/
+*.log
+
+# Office Add-in related files
+*.officeaddin
+
+# Environment variables
+.env
+.env.local
+
+# VS Code settings
+.vscode/
+
+# Dependency locks
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Office cache and settings
+~$*
+*.tmp
+
+# Temporary files
+*.bak
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+
+# Logs
+logs/
+*.log
+out.log
+debug.log
